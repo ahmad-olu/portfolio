@@ -7,9 +7,10 @@ import "./app.css";
 export default function App() {
   return (
     <Router
-      root={props => (
+      root={(props) => (
         <>
           <Nav />
+          <h1>Gotcha</h1>
           <Suspense>{props.children}</Suspense>
         </>
       )}
