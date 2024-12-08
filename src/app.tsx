@@ -10,7 +10,6 @@ export default function App() {
       root={(props) => (
         <>
           <Nav />
-          <h1>Gotcha</h1>
           <Suspense>{props.children}</Suspense>
         </>
       )}
